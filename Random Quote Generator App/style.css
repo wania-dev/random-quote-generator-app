@@ -48,7 +48,7 @@ body{
     font-size: 15px;
     width: 75vw;
 }
-
+.quotesbody{width: 75vw;}
 button {
     padding: 8px;
     font-family: work sans;
