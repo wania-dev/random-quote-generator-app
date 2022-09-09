@@ -45,7 +45,7 @@ var other_quotes = [
 // generates a random whole number that ranges from 0 to the length of the quotes array
 function newQuote() {
     var random_num = Math.floor(Math.random() * (ma_quotes.length));
-    document.getElementById('quotedisplay').innerHTML = ma_quotes[random_num] + '<br> ~ Aniqa Rais';
+    document.getElementById('quotedisplay').innerHTML = ma_quotes[random_num] + '<br> ~ Aniqah Rais';
 }
 
 function other() {
