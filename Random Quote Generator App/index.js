@@ -10,7 +10,8 @@ var ma_quotes = [
     '"\You got marks in your pocket\."',
     '"\Exam Mein Galti ki koi gunjaish nahi\."',
     '“The room where you\'re the best is the wrong room.”',
-    '“My twenties went into realising that this is not enough, that there is more.”'
+    '“My twenties went into realising that this is not enough, that there is more.”',
+    '“I want you girls to be decisive. To be able to make solid decisions in your lives.”',
 ]
 var other_quotes = [
     '“If you do every job like you’re going to do it for the rest of your life, that’s when you get noticed.” ~ Mary Barra',
