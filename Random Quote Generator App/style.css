@@ -1,0 +1,87 @@
+/* font families */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body{
+    background-color: #f3f3f3;
+    color: black;
+    width: 98vw;
+}
+/* into passage */
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.text-box h1{
+    font-family: roboto mono;
+    background: #ffffff;
+    color: black;
+    border: 2px solid black;
+    width: 75vw;
+    padding: 5px;
+    font-size: 2vmax;
+    border-radius: 5px;
+}
+@media (max-width: 277px){
+    .text-box h1{
+        width: 95vw;
+    }
+}
+@media (max-width: 700px){
+    .text-box h1{
+        border: none;
+        width: 75vw ;
+        font-size: 18px;
+    }
+}
+/* styling quote body  */
+.quotesbody, .otherquotes{
+    font-family: work sans;
+    font-size: 15px;
+    text-align: center;
+}
+.otherquotes{
+    font-size: 15px;
+    width: 75vw;
+}
+
+button {
+    padding: 8px;
+    font-family: work sans;
+    border-radius: 15px;
+    cursor: pointer;
+    background: none;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+}
+button:hover{background-color: black;color: #f3f3f3; transition: 0.5s;}
+/* styling quote body end */
+
+/* time  */
+.time p{
+    font-family: work sans;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.time p:hover{text-decoration: underline;}
+/* time end */
+
+/* footer */
+footer{
+    background-color: #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: work sans;
+}
+footer a{text-decoration: none; color: black;}
