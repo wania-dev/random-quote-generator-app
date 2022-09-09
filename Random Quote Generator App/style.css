@@ -25,6 +25,7 @@ body{
     padding: 5px;
     font-size: 2vmax;
     border-radius: 5px;
+    text-align: center;
 }
 @media (max-width: 277px){
     .text-box h1{
